@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matthew Days | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              mono: ['"IBM Plex Mono"', "monospace"],
+            },
+          },
+        },
+      };
+    </script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "IBM Plex Mono", monospace;
+      }
+    </style>
+  </head>
+  <body class="bg-white text-black">
+    <main class="max-w-3xl mx-auto px-4 py-16 space-y-12">
+      <!-- Hero -->
+      <section id="home" class="space-y-2">
+        <h1 class="text-4xl font-bold">Matthew Days</h1>
+        <p class="text-lg text-black-400">
+          Backend Engineer - Washington, D.C.
+        </p>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="space-y-2">
+        <h2 class="text-2xl font-semibold text-primary">About</h2>
+        <p class="text-black-300">
+           Backend Engineer with a background in embedded software and mobile development
+           (and a touch of full-stack experience). Also interested in film! 
+           Based in Washington, D.C.
+        </p>
+      </section>
+
+      <!-- Experience -->
+      <section id="experience" class="space-y-2">
+        <h2 class="text-2xl font-semibold text-primary">Experience</h2>
+        <ul class="space-y-2">
+          <li>
+            <p class="text-black font-medium">iOS Software Engineer at Radiant Engines</p>
+            <p class="text-black-400 text-sm">2024 – Present</p>
+            <p class="text-black font-medium">Embedded Software Engineer at NGC</p>
+            <p class="text-black-400 text-sm">2019 – 2024</p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Education -->
+      <section id="education" class="space-y-2">
+        <h2 class="text-2xl font-semibold text-primary">Education</h2>
+        <ul class="space-y-2">
+          <li>
+            <p class="text-black font-medium">Georgia Institute of Technology: MS in Computer Science</p>
+            <p class="text-black-400 text-sm">2020 - 2024</p>
+          </li>
+          <li>
+            <p class="text-black font-medium">Davidson College: BS in Computer Science and English</p>
+            <p class="text-black-400 text-sm">2015 – 2019</p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="space-y-2">
+        <h2 class="text-2xl font-semibold text-primary">Projects</h2>
+        <div class="space-y-2">
+          <div>
+            <p class="font-medium text-black">DUCCS Android App (Diabetes Ubiquitous Computation Sensing System)</p>
+            <p class="text-black-300 text-sm">
+              An Android app for measuring users gait and detecting abnormalities indicative of diabetes complications. Built with AndroidStudio, Java, SQLite
+            </p>
+          </div>
+          <div>
+            <p class="font-medium text-black">Sokoban Solved</p>
+            <p class="text-black-300 text-sm">
+              A puzzle-solving agent meant to play titular Japanese puzzle game and model performance of different search algorithms. Built with Python
+            </p>
+          </div>
+          <div>
+            <p class="font-medium text-black">Self-Stabilization Simulation</p>
+            <p class="text-black-300 text-sm">
+              A simulation for experimenting with and visualizing self-stabilization protocols for swarms of mobile agents in 2D and 3D. Built with C++, OpenGL, and ARGoS
+            </p>
+          </div>
+          <div>
+            <p class="font-medium text-black">Milleni-aires</p>
+            <p class="text-black-300 text-sm">
+              A cross-platform mobile app that democratizes investing for non-investors. Built with Ionic, Angular, and Firebase
+            </p>
+          </div>
+          <div>
+            <p class="font-medium text-black">A Historic Look at Cryptocurrencies</p>
+            <p class="text-black-300 text-sm">
+              An interactive visualization of the rise of cryptocurrencies through 2018. Built with D3.js, JavaScript, HTML, CSS
+            </p>
+          </div>
+          <div>
+            <p class="font-medium text-black">Union Cafe Online Ordering Platform</p>
+            <p class="text-black-300 text-sm">
+              An online ordering platform prototype for Davidson campus dining options. Built with PHP, JavaScript, MySQL, HTML, CSS
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills" class="space-y-2">
+        <h2 class="text-2xl font-semibold text-primary">Skills</h2>
+        <p class="text-black-300">
+          C++, Python, Java, Bash, JavaScript, HTML, CSS, Git, Linux, Agile development, Scrum Master, Jenkins, Tailwind, React, Flask
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
